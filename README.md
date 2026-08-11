@@ -33,52 +33,51 @@ Este caderno temático, construído com o auxílio do **NotebookLM**, cobre trê
 
 ## 📚 Curadoria de Fontes
 
-As seis fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são abertas, acadêmicas ou publicadas sob licenças permissivas.
+As cinco fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são de **acesso aberto** — disponibilizadas por universidades, pela GNU Free Software Foundation ou publicadas sob licenças Creative Commons.
 
-### Fonte 1 — 📕 Livro: Estruturas de Dados Usando C
-- **Autor:** Aaron M. Tenenbaum, Yedidyah Langsam, Moshe J. Augenstein
-- **Editora:** Pearson / Makron Books
-- **Tipo:** Livro técnico — PDF carregado diretamente no NotebookLM
-- **Capítulos de maior relevância para este caderno:**
-  - Cap. 7: Árvores (conceitos fundamentais, representação em C)
-  - Cap. 8: Árvores Binárias de Busca e técnicas de balanceamento
-  - Cap. 9: Árvores B e estruturas para armazenamento externo
-- **Cobertura:** Toda a base teórica e prática de árvores binárias, BST, AVL e B-Trees com implementações em C, análise de algoritmos e exercícios resolvidos.
-- **Por que escolhi:** Referência clássica adotada em inúmeras universidades brasileiras. Apresenta os conceitos de forma progressiva, com código C detalhado e rigor matemático acessível. É a espinha dorsal deste caderno temático.
-
-### Fonte 2 — Livro GNU: An Introduction to Binary Search Trees and Balanced Trees
+### Fonte 1 — Livro GNU: An Introduction to Binary Search Trees and Balanced Trees
 - **Autor:** Ben Pfaff (GNU Project / Free Software Foundation)
-- **Tipo:** Livro técnico aberto (GNU Free Documentation License)
+- **Licença:** GNU Free Documentation License (totalmente aberta)
 - **URL:** https://ftp.gnu.org/gnu/libavl/
-- **Cobertura:** BST, AVL, Red-Black Trees, implementações completas em C com discussão de eficiência de memória.
-- **Por que escolhi:** É uma das referências mais completas e gratuitas sobre implementação real de árvores binárias e balanceadas em C. O código é produção-grade.
+- **Cobertura:** BST, AVL, Red-Black Trees — implementações completas em C com análise de eficiência de memória e código produção-grade.
+- **Por que escolhi:** Uma das referências mais rigorosas e gratuitas sobre implementação real de árvores em C. O código é de nível profissional e a licença é completamente aberta.
 
-### Fonte 3 — Notas de Aula UFPR: Árvores Binárias e AVL
+### Fonte 2 — Notas de Aula UFPR: Árvores Binárias
 - **Autor:** Profa. Carmem Hara — Universidade Federal do Paraná
-- **Tipo:** Material didático universitário (acesso aberto)
+- **Licença:** Material didático público (acesso aberto via repositório institucional)
 - **URL:** https://www.inf.ufpr.br/carmem/ci062/aulas/aula14-arvoresBinarias.pdf
-- **Cobertura:** Conceitos de árvore binária, percursos (in-order, pre-order, post-order), busca e inserção.
-- **Por que escolhi:** Material em Português, didático, com código C claro e foco em quem está aprendendo.
+- **Cobertura:** Conceitos de árvore binária, percursos (in-order, pre-order, post-order), busca e inserção em C.
+- **Por que escolhi:** Material em Português, didático e acessível, com código C claro e foco em quem está aprendendo.
 
-### Fonte 4 — Notas de Aula UFSM: Árvores AVL
+### Fonte 3 — Notas de Aula UFSM: Árvores AVL
 - **Autor:** Prof. Cesar Tadeu Pozzer — Universidade Federal de Santa Maria
-- **Tipo:** Material didático universitário (acesso aberto)
+- **Licença:** Material didático público (acesso aberto via repositório institucional)
 - **URL:** http://www-usr.inf.ufsm.br/~pozzer/disciplinas/ed2/arvore_avl.pdf
 - **Cobertura:** Fator de balanceamento, rotações LL, RR, LR, RL, implementação completa em C.
-- **Por que escolhi:** Um dos materiais mais completos em Português sobre AVL, com diagramas visuais das rotações.
+- **Por que escolhi:** Um dos materiais mais completos em Português sobre AVL, com diagramas visuais de cada rotação.
 
-### Fonte 5 — Artigo Acadêmico: Conceitos Importantes de Estrutura de Árvores
+### Fonte 4 — Artigo: Conceitos Importantes de Estrutura de Árvores
 - **Autores:** Publicado na *Revista Interface Tecnológica* (Fatec Taquaritinga)
-- **Tipo:** Artigo científico (licença CC BY 4.0)
+- **Licença:** Creative Commons CC BY 4.0 (uso livre com atribuição)
 - **URL:** https://interfacetecnologica.com.br/index.php/InterfaceTecnologica/article/view/719
-- **Cobertura:** Comparação entre BST e AVL, casos de uso, análise de complexidade.
-- **Por que escolhi:** Perspectiva acadêmica brasileira, bem referenciada, excelente para consolidar a teoria.
+- **Cobertura:** Comparação entre BST e AVL, casos de uso e análise de complexidade.
+- **Por que escolhi:** Perspectiva acadêmica brasileira recente com licença aberta — ideal para consolidar a teoria.
 
-### Fonte 6 — Lecture Notes: B-Trees and B+ Trees (CS8391 - Data Structures)
-- **Tipo:** Notas de aula universitárias abertas
+### Fonte 5 — Lecture Notes: B-Trees and B+ Trees (CS8391)
+- **Tipo:** Notas de aula universitárias (acesso aberto)
 - **URL:** https://www.jeppiaarinstitute.org/pdf/cse/CS8391.pdf
 - **Cobertura:** B-Trees: estrutura multi-way, propriedades, inserção e remoção de chaves, comparação com BST e AVL.
-- **Por que escolhi:** Único material do caderno que cobre B-Trees com profundidade técnica suficiente para entender a motivação por trás do design da estrutura.
+- **Por que escolhi:** Fonte dedicada às B-Trees com profundidade suficiente para entender a motivação por trás da estrutura em contextos de banco de dados.
+
+---
+
+## 📖 Referências Complementares
+
+> ⚠️ **Nota sobre licença:** Os materiais abaixo são obras **protegidas por direitos autorais** (copyright comercial) e **não se enquadram como fontes abertas**. Por isso, não foram listados na curadoria oficial nem carregados no NotebookLM. São incluídos aqui apenas como referências bibliográficas de estudo pessoal, da forma como qualquer estudante citaria uma obra consultada.
+
+- **TENENBAUM, Aaron M.; LANGSAM, Yedidyah; AUGENSTEIN, Moshe J.** *Estruturas de Dados Usando C.* São Paulo: Pearson / Makron Books, 1995.
+  - Capítulos relevantes: 7 (Árvores), 8 (BST e balanceamento), 9 (Árvores B)
+  - Referência clássica adotada em inúmeras universidades brasileiras. Excelente para aprofundar os conceitos estudados nas fontes abertas acima.
 
 ---
 
