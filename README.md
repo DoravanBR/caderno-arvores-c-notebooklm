@@ -35,35 +35,46 @@ Este caderno temático, construído com o auxílio do **NotebookLM**, cobre trê
 
 As cinco fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são abertas, acadêmicas ou publicadas sob licenças permissivas.
 
-### Fonte 1 — Livro GNU: An Introduction to Binary Search Trees and Balanced Trees
+### Fonte 1 — 📕 Livro: Estruturas de Dados Usando C
+- **Autor:** Aaron M. Tenenbaum, Yedidyah Langsam, Moshe J. Augenstein
+- **Editora:** Pearson / Makron Books
+- **Tipo:** Livro técnico — PDF carregado diretamente no NotebookLM
+- **Capítulos de maior relevância para este caderno:**
+  - Cap. 7: Árvores (conceitos fundamentais, representação em C)
+  - Cap. 8: Árvores Binárias de Busca e técnicas de balanceamento
+  - Cap. 9: Árvores B e estruturas para armazenamento externo
+- **Cobertura:** Toda a base teórica e prática de árvores binárias, BST, AVL e B-Trees com implementações em C, análise de algoritmos e exercícios resolvidos.
+- **Por que escolhi:** Referência clássica adotada em inúmeras universidades brasileiras. Apresenta os conceitos de forma progressiva, com código C detalhado e rigor matemático acessível. É a espinha dorsal deste caderno temático.
+
+### Fonte 2 — Livro GNU: An Introduction to Binary Search Trees and Balanced Trees
 - **Autor:** Ben Pfaff (GNU Project / Free Software Foundation)
 - **Tipo:** Livro técnico aberto (GNU Free Documentation License)
 - **URL:** https://ftp.gnu.org/gnu/libavl/
 - **Cobertura:** BST, AVL, Red-Black Trees, implementações completas em C com discussão de eficiência de memória.
 - **Por que escolhi:** É uma das referências mais completas e gratuitas sobre implementação real de árvores binárias e balanceadas em C. O código é produção-grade.
 
-### Fonte 2 — Notas de Aula UFPR: Árvores Binárias e AVL
+### Fonte 3 — Notas de Aula UFPR: Árvores Binárias e AVL
 - **Autor:** Profa. Carmem Hara — Universidade Federal do Paraná
 - **Tipo:** Material didático universitário (acesso aberto)
 - **URL:** https://www.inf.ufpr.br/carmem/ci062/aulas/aula14-arvoresBinarias.pdf
 - **Cobertura:** Conceitos de árvore binária, percursos (in-order, pre-order, post-order), busca e inserção.
 - **Por que escolhi:** Material em Português, didático, com código C claro e foco em quem está aprendendo.
 
-### Fonte 3 — Notas de Aula UFSM: Árvores AVL
+### Fonte 4 — Notas de Aula UFSM: Árvores AVL
 - **Autor:** Prof. Cesar Tadeu Pozzer — Universidade Federal de Santa Maria
 - **Tipo:** Material didático universitário (acesso aberto)
 - **URL:** http://www-usr.inf.ufsm.br/~pozzer/disciplinas/ed2/arvore_avl.pdf
 - **Cobertura:** Fator de balanceamento, rotações LL, RR, LR, RL, implementação completa em C.
 - **Por que escolhi:** Um dos materiais mais completos em Português sobre AVL, com diagramas visuais das rotações.
 
-### Fonte 4 — Artigo Acadêmico: Conceitos Importantes de Estrutura de Árvores
+### Fonte 5 — Artigo Acadêmico: Conceitos Importantes de Estrutura de Árvores
 - **Autores:** Publicado na *Revista Interface Tecnológica* (Fatec Taquaritinga)
 - **Tipo:** Artigo científico (licença CC BY 4.0)
 - **URL:** https://interfacetecnologica.com.br/index.php/InterfaceTecnologica/article/view/719
 - **Cobertura:** Comparação entre BST e AVL, casos de uso, análise de complexidade.
 - **Por que escolhi:** Perspectiva acadêmica brasileira, bem referenciada, excelente para consolidar a teoria.
 
-### Fonte 5 — Lecture Notes: B-Trees and B+ Trees (CS8391 - Data Structures)
+### Fonte 6 — Lecture Notes: B-Trees and B+ Trees (CS8391 - Data Structures)
 - **Tipo:** Notas de aula universitárias abertas
 - **URL:** https://www.jeppiaarinstitute.org/pdf/cse/CS8391.pdf
 - **Cobertura:** B-Trees: estrutura multi-way, propriedades, inserção e remoção de chaves, comparação com BST e AVL.
