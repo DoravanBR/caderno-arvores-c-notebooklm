@@ -38,36 +38,36 @@ As cinco fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são
 ### Fonte 1 — Livro GNU: An Introduction to Binary Search Trees and Balanced Trees
 - **Autor:** Ben Pfaff (GNU Project / Free Software Foundation)
 - **Licença:** GNU Free Documentation License (totalmente aberta)
-- **URL:** https://ftp.gnu.org/gnu/libavl/
+- **URL:** https://adtinfo.org/libavl.html/index.html
 - **Cobertura:** BST, AVL, Red-Black Trees — implementações completas em C com análise de eficiência de memória e código produção-grade.
-- **Por que escolhi:** Uma das referências mais rigorosas e gratuitas sobre implementação real de árvores em C. O código é de nível profissional e a licença é completamente aberta.
+- **Por que escolhi:** Uma das referências mais rigorosas e gratuitas sobre implementação real de árvores em C. O código é de nível profissional, a licença é completamente aberta e o site é super estável.
 
-### Fonte 2 — Notas de Aula UFPR: Árvores Binárias
-- **Autor:** Profa. Carmem Hara — Universidade Federal do Paraná
-- **Licença:** Material didático público (acesso aberto via repositório institucional)
-- **URL:** https://www.inf.ufpr.br/carmem/ci062/aulas/aula14-arvoresBinarias.pdf
-- **Cobertura:** Conceitos de árvore binária, percursos (in-order, pre-order, post-order), busca e inserção em C.
-- **Por que escolhi:** Material em Português, didático e acessível, com código C claro e foco em quem está aprendendo.
+### Fonte 2 — Projeto de Algoritmos (IME-USP): Árvores Binárias de Busca
+- **Autor:** Prof. Paulo Feofiloff — Universidade de São Paulo (IME-USP)
+- **Licença:** Material didático público (acesso aberto)
+- **URL:** https://www.ime.usp.br/~pf/algoritmos/aulas/binst.html
+- **Cobertura:** Conceitos de árvore binária, buscas e implementações essenciais na linguagem C.
+- **Por que escolhi:** É indiscutivelmente o material de algoritmos em C mais famoso e confiável do Brasil. Sempre online e extremamente didático para iniciantes.
 
-### Fonte 3 — Notas de Aula UFSM: Árvores AVL
-- **Autor:** Prof. Cesar Tadeu Pozzer — Universidade Federal de Santa Maria
-- **Licença:** Material didático público (acesso aberto via repositório institucional)
-- **URL:** http://www-usr.inf.ufsm.br/~pozzer/disciplinas/ed2/arvore_avl.pdf
-- **Cobertura:** Fator de balanceamento, rotações LL, RR, LR, RL, implementação completa em C.
-- **Por que escolhi:** Um dos materiais mais completos em Português sobre AVL, com diagramas visuais de cada rotação.
+### Fonte 3 — GeeksforGeeks: AVL Tree Data Structure
+- **Autor:** Comunidade GeeksforGeeks
+- **Licença:** Acesso aberto gratuito
+- **URL:** https://www.geeksforgeeks.org/introduction-to-avl-tree/
+- **Cobertura:** Fator de balanceamento, visualização das 4 rotações (LL, RR, LR, RL) e implementação passo a passo em C.
+- **Por que escolhi:** Material muito visual e prático, ideal para alimentar o NotebookLM com o raciocínio por trás de cada rotação da árvore AVL.
 
-### Fonte 4 — Artigo: Conceitos Importantes de Estrutura de Árvores
-- **Autores:** Publicado na *Revista Interface Tecnológica* (Fatec Taquaritinga)
-- **Licença:** Creative Commons CC BY 4.0 (uso livre com atribuição)
-- **URL:** https://interfacetecnologica.com.br/index.php/InterfaceTecnologica/article/view/719
-- **Cobertura:** Comparação entre BST e AVL, casos de uso e análise de complexidade.
-- **Por que escolhi:** Perspectiva acadêmica brasileira recente com licença aberta — ideal para consolidar a teoria.
+### Fonte 4 — GeeksforGeeks: Introduction of B-Tree
+- **Autor:** Comunidade GeeksforGeeks
+- **Licença:** Acesso aberto gratuito
+- **URL:** https://www.geeksforgeeks.org/introduction-of-b-tree-2/
+- **Cobertura:** Propriedades da Árvore B, diferenças para a BST/AVL e motivação do seu uso para minimizar acessos a disco.
+- **Por que escolhi:** É um dos poucos materiais focados exclusivamente na Árvore B de forma simplificada, perfeito para criar resumos com IA.
 
-### Fonte 5 — Lecture Notes: B-Trees and B+ Trees (CS8391)
-- **Tipo:** Notas de aula universitárias (acesso aberto)
-- **URL:** https://www.jeppiaarinstitute.org/pdf/cse/CS8391.pdf
-- **Cobertura:** B-Trees: estrutura multi-way, propriedades, inserção e remoção de chaves, comparação com BST e AVL.
-- **Por que escolhi:** Fonte dedicada às B-Trees com profundidade suficiente para entender a motivação por trás da estrutura em contextos de banco de dados.
+### Fonte 5 — Wikipedia (PT): Árvore B
+- **Licença:** Creative Commons CC-BY-SA 4.0
+- **URL:** https://pt.wikipedia.org/wiki/%C3%81rvore_B
+- **Cobertura:** Teoria completa das Árvores B, casos de uso em bancos de dados (como PostgreSQL e SQLite) e sistemas de arquivos.
+- **Por que escolhi:** A Wikipédia em português possui um excelente artigo sobre Árvores B, muito bem estruturado e com licença 100% aberta, o que garante que sempre estará disponível.
 
 ---
 
