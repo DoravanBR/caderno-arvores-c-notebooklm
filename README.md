@@ -33,7 +33,7 @@ Este caderno temático, construído com o auxílio do **NotebookLM**, cobre trê
 
 ## 📚 Curadoria de Fontes
 
-As cinco fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são abertas, acadêmicas ou publicadas sob licenças permissivas.
+As seis fontes abaixo foram selecionadas e carregadas no NotebookLM. Todas são abertas, acadêmicas ou publicadas sob licenças permissivas.
 
 ### Fonte 1 — 📕 Livro: Estruturas de Dados Usando C
 - **Autor:** Aaron M. Tenenbaum, Yedidyah Langsam, Moshe J. Augenstein
